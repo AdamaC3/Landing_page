@@ -1,0 +1,245 @@
+body{ 
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    font-family: system-ui, -apple-system, Roboto, sans-serif;
+}
+
+/* .header  */
+/* .cuad */
+
+.cuad{
+    width: 800px;
+    margin-inline:10px;
+    margin: 20px;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuad .left{
+    font-size: 30px;
+    color:antiquewhite;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline lightblue;
+    text-align: left;
+}
+
+.cuad .right{
+    text-align: right;
+}
+
+/* .contai */
+
+.contai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+
+}
+
+
+.recuadro{
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    padding: 12px;
+    width: 400px;
+    
+}
+
+.recuadro .left{
+    text-align: left;
+
+}
+
+.right img{
+    width: 370px;
+    height: auto;
+    box-shadow: -20px 30px 40px -10px;
+    border: none;
+}
+
+.Titulo{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.Tex{
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+button{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    color: white;
+    margin-top: 20px;
+    border: 3px solid blue;
+}
+
+.right p{
+    color: bisque;
+    text-align: center;
+}
+
+/* .container */
+
+.container{
+    background-color:#e5e7eb;
+    justify-content: center;
+}
+
+.containertwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    gap: 18px;
+}
+
+.title{
+    padding: 12px;
+    text-align: center;
+    color: #1f2937;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.info{
+    justify-items: center;
+    width: 180px;
+    height: auto;
+}
+
+.info .text{
+    font-size: 16px;
+    text-align: center;
+}
+
+/* .inspir */
+
+.inspir{
+    background-color: lightblue;
+}
+
+.inspirtwo{
+    display: flex;
+    justify-self: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 700px;
+    flex-direction: column;
+    margin-inline: 50px;
+}
+
+
+.inspirtwo .text{
+    font-style: italic;
+    font-size: 30px;
+    color: #1f2937;
+
+}
+
+.subtext {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: right;
+}
+
+/* .ult */
+
+.ult{
+    background-color: aliceblue;
+}
+
+.cuadr{
+    background-color: royalblue;
+    justify-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.cuadr .text{
+    margin-inline: 60px;
+}
+
+
+.ns {
+
+    margin-top: 0px;
+    border-color: #F9FAF8;
+    margin-left: 120px;
+}
+
+.text .c2, .text .c6{
+    text-align: left;
+    color: #F9FAF8;
+}    
+
+.text .c2{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.text .c6{
+    font-size: small;
+}
+
+/* .footer */
+
+.footer .text{
+    display: flex;
+    height: 40px;
+    font-size: 10px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.right a{
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+/* quito los tipo lista*/
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+img{
+    display: flex;
+    width: 170px;
+    height: 113px;
+    margin-bottom: 15px;
+    border-radius: 13px;
+    border: 3px solid royalblue;
+}
